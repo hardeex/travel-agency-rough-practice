@@ -1,0 +1,68 @@
+ body{
+     background: linear-gradient(40deg, rgb(77, 77, 77), rgb(58, 58, 58));
+     color: rgb(68, 68, 68);
+ }
+
+ header{
+     position: static;
+ }
+
+
+
+ header div a,  #page-logo a{
+     color: white;
+     border-radius: 8px;
+ }
+
+ header div a:hover,  #page-logo a:hover{
+     background-color: rgb(106, 161, 116);
+ }
+ main ul{
+     width: 1200px;
+     margin: 0 auto 50px auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 20px;
+ }
+
+ main li{
+     display: flex;
+     background-color: white;
+     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+     border-radius: 6px;
+     overflow: hidden;
+ }
+ main li img{
+     width: 300px;
+     height: 280px;
+     object-fit: cover;
+ }
+
+ li:nth-child(3){
+     grid-column: 1/span 2;
+ }
+
+ .item-content{
+     padding: 24px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .action-explore{
+     text-align: right;
+ }
+
+ .action-explore a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: rgb(106, 161, 116);
+    font-weight: bold;
+}
+
+.action-explore a:hover{
+    background-color: rgb(106, 161, 116);
+    color: white;
+}

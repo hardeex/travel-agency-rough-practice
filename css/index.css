@@ -1,0 +1,93 @@
+#hero-image{
+    background-image: url(../images/traveller_hero_image.jpg);
+    height: 768px; 
+    background-position: center;
+    background-size: cover; 
+}
+
+#hero-content{
+    background-color: rgba(14, 11, 11, 0.678);
+    width: 600px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12x;
+}
+
+#hero-content a {
+    text-decoration: none;
+    color: rgb(24, 15, 15);
+    background-color: rgb(241, 199, 139);
+    padding: 5px 15px;
+    border-radius: 8px;
+    
+}
+
+
+#hero-content a:hover{
+    font-size: 22px;
+    background-color: rgb(241, 215, 120);
+}
+
+#highlight {
+    background: linear-gradient(195deg, rgb(92, 58, 58), rgb(219, 141, 141)) ;
+    padding: 24px;
+   
+}
+
+#highlight h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(214, 208, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#destination{
+    display: flex;
+   list-style: none;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 50px;
+}
+
+.destination{
+    margin: 0 20px;
+}
+
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 3px 5px 10px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.destination strong{
+    color: rgb(241, 215, 120);
+}
+
+
